@@ -31,7 +31,7 @@ Completed for **SC/MATH 3430 – Sample Survey Methods** at York University.
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 - `Group_5_Code.R` — Data analysis and visualizations
 - `Group_5_Data.csv` — Survey dataset
 - `Group_5_Report.pdf` — Final report
