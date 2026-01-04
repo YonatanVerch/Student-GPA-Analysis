@@ -1,0 +1,101 @@
+Student_number,GPA,Program,Study_hours_week,Exercise_hours_week,Stress_1_to_10,Sleep_hours_day,Lecture_attendance_percent,Screen_time_hours_day,Would_you_change_your_degree
+1,6,Biology,2,6,4,6,80,6,No
+2,6,Psychology,2,0,6,7,100,9,No
+3,8,Psychology,10,7,8,8,100,8,Yes
+4,7,Psychology,8,1,5,8,70,7,Yes
+5,4,Chemistry,8,4,6,3,70,7,No
+6,8,Psychology,21,5,6,8,100,8.5,No
+7,5,Psychology,15,20,4,6,60,10,No
+8,7.5,Engineering,35,6,7,5,100,2,No
+9,6,Engineering,14,6,4,7,95,3,No
+10,8,Engineering,32,10,5,10,60,5,No
+11,5,Biology,0,0,5,2,75,5,No
+12,8.5,Engineering,32,8,6,5,100,5,No
+13,6,Engineering,20,7,6,6,95,7,Yes
+14,5.5,Engineering,10,5,4,5,95,8,Yes
+15,8,Architecture,0,4,1,6,60,3,No
+16,7,Business,0,8,2,8,90,6,No
+17,9,Teaching,2,4,1,8,90,3,No
+18,4,Social Work,0.5,3,10,9,100,6,Yes
+19,8,Neuroscience,20,6,7,6,95,6.5,No
+20,6,Psychology,4,3,10,6,20,9.5,No
+21,9,Biology,20,13,6,4,95,11,No
+22,2,Culinary,35,0,7,6,95,9,Engineering
+23,5.5,Computer Science,1,7,6,7,90,13.5,No
+24,7,Kinesiology,5,7,5,7,90,6,No
+25,7.5,Nursing,9,3,7,7,65,7,Kinesiology
+26,6,Biology,10,5,7,7,70,9,No
+27,8,Psychology,15,5,5,7,90,6,No
+28,8,Business,19,5,2,7,80,6,No
+29,7,Engineering,2,5,9,7,100,8,No
+30,8,Psychology,8,6,9,7,80,5,No
+31,6,Engineering,10,7,7,5,100,1,No
+32,6,Engineering,10,3,8,4,80,8,Yes
+33,6,Engineering,8,4,1,5,80,7,No
+34,7,Kinesiology,12,8,6,8,100,4,Yes
+35,8,Kinesiology,14,6,8,7,100,5,Yes
+36,8,Kinesiology,8,7,6,8,80,8,Vetenarian
+37,8,Kinesiology,10,7,6,8,10,8,No
+38,7,Law,3,1,5,8,10,9,No
+39,6.5,Biology,10,7,7,7,90,6,No
+40,6,Kinesiology,8,7,8,6,50,7,No
+41,7,Biology,8,5,8.5,6,90,8,Arts
+42,9,Biology,30,2,7,7,80,5,Biology
+43,9,Biology,30,2,5,7,70,9,Biology
+44,7,Biology,25,7,10,4,70,4,Computer Science
+45,9,Biology,40,2,7.5,7,40,3,Biology
+46,7,Biology,25,2,10,7,70,5,Kinesiology
+47,8.5,Psychology,9,11,10,5,100,7,No
+48,6,Biology,10,7,8,6,50,5,Business
+49,7.5,Biology,10,12,8,7,80,7,Nursing
+50,6,Biology,10,6,8,6,80,7,Nursing
+51,8.3,Kinesiology,35,12,8.5,8,90,5,No
+52,7.8,Kinesiology,35,3,8,7,90,6,Drop Out
+53,8,Politcal Science,25,12,9,5,60,6,English
+54,7,Law,25,12,7,6,70,14,Crimnology
+55,5,Biology,19,7,10,10,80,9,No
+56,5,Biology,5,8,10,5,80,10,No
+57,8,Kinesiology,10,1,6,9,80,6,Psychology
+58,8.1,Kinesiology,10,4,8.5,7,40,4,No
+59,8,Kinesiology,12,0,10,7,90,8,Biology
+60,8,Biology,9,6,8,8,90,6,Bio Tech
+61,8,Business,10,7,10,5,80,5,Car school
+62,7.5,Business,12,5,6,8,80,6,Law
+63,8,Law,12,0,7,6,100,6,No
+64,8,Politcal Science,20,0,7,8,90,5,No
+65,8,Business,12,0,10,8,80,4,Political Science
+66,7,Psychology,10,2,7,0,80,6,Kinesiology
+67,7,Law,11,18,6,7.5,70,8.5,Finance
+68,7,Biology,12,9,7,6.5,80,5,Finance
+69,6,Business,10,14,8,8,40,6,Forensics
+70,5,Biology,15,12,10,5,80,7,Nursing
+71,9,Kinesiology,15,8,8,7,70,5,English
+72,6,Kinesiology,20,2,9.5,6,60,7,Film
+73,6,Kinesiology,20,2,7,6,60,4,Nursing
+74,6,Kinesiology,20,2,8,6,40,4,Psychology
+75,8,Business,12,8,6,8,100,4.5,No
+76,9,Biology,10,5,7.5,7,100,3.5,No
+77,9,Biology,10,2,7,6.5,90,4,No
+78,8.2,Engineering,8,11,5,4,100,3,Computer Science
+79,8.1,Engineering,8,5,7,7,100,8,No
+80,7,Engineering,7,7,3,6,100,3,Technology
+81,7,Engineering,10,5,5,9,100,6,Law
+82,8,Engineering,6,5,7,7,100,4,No
+83,9,Engineering,7,12,7,5,100,6,No
+84,6,Biology,35,0,8,7,70,4,No
+85,7.5,Biology,21,0,9,6,30,3,No
+86,5,Undecided,35,3,8,6,100,5,Biology
+87,9,Engineering,56,3,10,6,100,2,No
+88,8,Visual Arts,10,1,6,5,75,8,No
+89,7,Visual Arts,10,1,6,5,80,12,No
+90,7,Visual Arts,2,1,8,7,70,5,Philosophy
+91,6.5,Engineering,10,14,8,6,30,7,No
+92,6.8,Engineering,10,0,5,7,10,9,No
+93,8,Psychology,4,5,1,8,20,8,No
+94,8.5,Business,35,8,8,8,100,2.5,Law
+95,8,Kinesiology,3,6,1,8,100,10,No
+96,8,Kinesiology,3,14,1,8,100,7,No
+97,9,Business,15,5,7,7,50,2,Neuroscience
+98,8,Neuroscience,35,4,9,7,100,1.5,No
+99,8,Business,35,14,8,6,95,10,No
+100,9,Psychology,21,14,6,6,85,8,No
