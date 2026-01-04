@@ -6,13 +6,13 @@ Completed for **SC/MATH 3430 – Sample Survey Methods** at York University.
 
 ---
 
-## 📊 Data
+## Data
 - Survey of **100 York University students**
 - Variables: GPA, study hours, sleep duration, screen time, stress level, exercise, lecture attendance
 
 ---
 
-## 🧠 Methodology
+## Methodology
 - Correlation analysis
 - Simple Random Sampling (SRS)
 - Stratified Sampling:
@@ -23,7 +23,7 @@ Completed for **SC/MATH 3430 – Sample Survey Methods** at York University.
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 - **Strongest negative factor:** Screen time  
 - **Strongest positive factor:** Sleep duration  
 - Balanced sleep, moderate study time, and low screen time are associated with higher GPAs  
