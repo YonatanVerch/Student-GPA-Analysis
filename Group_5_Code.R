@@ -4,7 +4,7 @@ library(ggplot2)
 library(sampling)
 
 # Load the dataset
-data <- read.csv("/Users/juliangriffin/Desktop/Semester 2/Survey - 3430/Group Project/Group_5_Data.csv")
+data <- read.csv("Group_5_Data.csv")
 
 # Ensure column names are correctly formatted
 colnames(data) <- make.names(colnames(data))
