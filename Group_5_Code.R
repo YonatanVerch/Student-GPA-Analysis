@@ -1,6 +1,4 @@
-# ================================================
-# Step 0: Load Libraries & Dataset
-# ================================================
+
 library(dplyr)
 library(ggplot2)
 library(sampling)
@@ -11,9 +9,6 @@ data <- read.csv("/Users/juliangriffin/Desktop/Semester 2/Survey - 3430/Group Pr
 # Ensure column names are correctly formatted
 colnames(data) <- make.names(colnames(data))
 
-# ================================================
-# Step 1: Compute Correlation Matrix
-# ================================================
 numeric_cols <- c("GPA", "Study_hours_week", "Exercise_hours_week", 
                   "Stress_1_to_10", "Sleep_hours_day", 
                   "Lecture_attendance_percent", "Screen_time_hours_day")
@@ -23,9 +18,6 @@ cor_results <- cor(data[, numeric_cols], use="complete.obs")
 print("Correlation Matrix:")
 print(cor_results)
 
-# ================================================
-# Step 2: Identify Strongest Correlation Factors
-# ================================================
 cor_values <- cor_results["GPA", -1]
 
 # Find strongest negative correlation
@@ -59,9 +51,6 @@ ggplot(data, aes(x = Screen_time_hours_day, y = GPA)) +
   theme_minimal() +
   labs(title = "Screen Time vs. GPA", x = "Screen Time per Day", y = "GPA")
 
-# ================================================
-# Step 3: Create Stratification Variables (Study, Sleep, Screen Time)
-# ================================================
 data$Study_Bins <- cut(data$Study_hours_week, breaks = c(-Inf, 5, 10, 15, 20, Inf),
                        labels = c("0-5", "6-10", "11-15", "16-20", "21+"))
 
@@ -75,18 +64,12 @@ data$Screen_Bins <- cut(data$Screen_time_hours_day, breaks = c(-Inf, 2, 5, 8, In
 data$Strata <- paste("Study:", data$Study_Bins, ", Sleep:", data$Sleep_Bins, ", Screen:", data$Screen_Bins)
 data$Strata <- as.factor(data$Strata)
 
-# ================================================
-# Step 4: Perform Simple Random Sampling (SRS)
-# ================================================
 set.seed(123)
 srs_sample <- data %>% sample_n(30)
 srs_mean_gpa <- mean(srs_sample$GPA, na.rm = TRUE)
 
 print(paste("SRS Mean GPA:", srs_mean_gpa))
 
-# ================================================
-# Step 5: Perform Stratified Sampling (Proportional Allocation)
-# ================================================
 # Count number of students in each stratum
 strata_counts <- table(data$Strata)
 
@@ -116,18 +99,12 @@ stratified_sample <- data[strata_sample$ID_unit, ]
 stratified_mean_gpa <- mean(stratified_sample$GPA, na.rm = TRUE)
 print(paste("Stratified Mean GPA:", stratified_mean_gpa))
 
-# ================================================
-# Step 6: Compare Precision (Standard Error)
-# ================================================
 srs_se <- sd(srs_sample$GPA, na.rm = TRUE) / sqrt(nrow(srs_sample))
 stratified_se <- sd(stratified_sample$GPA, na.rm = TRUE) / sqrt(nrow(stratified_sample))
 
 print(paste("SRS Standard Error:", srs_se))
 print(paste("Stratified Standard Error:", stratified_se))
 
-# ================================================
-# Step 7: Key Insights & Best vs. Worst Strata Visualization
-# ================================================
 # Find the group with the highest and lowest mean GPA
 strata_gpa <- aggregate(GPA ~ Strata, data = stratified_sample, mean)
 best_stratum <- strata_gpa[which.max(strata_gpa$GPA), ]
@@ -148,10 +125,6 @@ ggplot(best_worst_gpa, aes(x = reorder(Strata, GPA), y = GPA, fill = GPA)) +
        y = "Mean GPA") +
   scale_fill_gradient(low = "red", high = "green") +
   theme(axis.text.x = element_text(angle = 25, hjust = 1, size = 15))
-
-# ================================================
-# Step 8: Final Takeaways
-# ================================================
 
 ## High GPA Students:
 # - Sleep: 7-9 hours per night
