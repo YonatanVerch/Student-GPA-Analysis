@@ -38,11 +38,11 @@ Completed for **SC/MATH 3430 – Sample Survey Methods** at York University.
 
 ---
 
-## 🛠 Tools
+## Tools
 R · dplyr · ggplot2 · sampling
 
 ---
 
-## 👤 Author
+## Author
 **Yonatan Verch**  
 BSc Mathematics — York University
