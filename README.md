@@ -11,6 +11,16 @@ This project investigates how lifestyle factors such as sleep duration, study in
 
 ---
 
+## Exploratory Visualizations
+
+### Screen Time/Study Hours vs. GPA
+![Screen Time vs GPA](download(9).png)
+
+### Sleep Hours vs. GPA
+![Sleep Hours vs GPA](download(10)png)
+
+---
+
 ## Data
 - Survey of **100 York University students**
 - Variables:
@@ -36,24 +46,27 @@ This project investigates how lifestyle factors such as sleep duration, study in
 ---
 
 ## Key Findings
-- **Screen time exhibited the strongest negative linear association with GPA** (Pearson correlation **r ≈ −0.27**), indicating a moderate adverse relationship between prolonged daily screen exposure and academic performance.
-- **Sleep duration demonstrated the strongest positive association with GPA** (Pearson correlation **r ≈ +0.19**), with peak academic outcomes observed among students reporting **7–8 hours of sleep per night**.
-- Stratification by **sleep duration, study intensity, and screen exposure** identified a high-performing subgroup (7–8 hours sleep, 11–15 study hours/week, 0–2 hours screen time) with **mean GPA ≈ 9.0**, exceeding the overall sample mean (**≈ 6.6**) by over **2 GPA points**.
-- Students in the **lowest-performing stratum** (9–12 hours/day screen time combined with 0–4 hours/night sleep) recorded **mean GPAs ≈ 5.0**, representing a **~24% reduction relative to the population mean**.
-- Marginal increases in study hours alone were **not sufficient** to produce higher GPA; academic gains were conditional on **adequate sleep and constrained screen time**, suggesting **interaction effects** between lifestyle variables.
-- **Stratified sampling produced substantial reductions in estimator variance relative to SRS**:
+- **Screen time exhibited the strongest negative linear association with GPA** (Pearson correlation **r ≈ −0.27**).
+- **Sleep duration demonstrated the strongest positive association with GPA** (Pearson correlation **r ≈ +0.19**), with optimal outcomes at **7–8 hours/night**.
+- A high-performing stratum (7–8 hours sleep, 11–15 study hours/week, 0–2 hours screen time) achieved **mean GPA ≈ 9.0**, exceeding the overall mean (**≈ 6.6**) by over **2 GPA points**.
+- The lowest-performing stratum (9–12 hours/day screen time and 0–4 hours/night sleep) recorded **mean GPA ≈ 5.0** (**~24% below population mean**).
+- Increased study hours alone were **not sufficient** to improve GPA without adequate sleep and controlled screen time.
+- **Stratified sampling reduced estimator variance relative to SRS**:
   - SRS variance: **1.74**
-  - Proportional allocation variance: **1.52** (**~13% reduction**)
-  - Neyman allocation variance: **1.48** (**~15% reduction vs. SRS**)
-- **Neyman allocation achieved the lowest standard error**, demonstrating its effectiveness in exploiting within-stratum heterogeneity to improve estimation efficiency.
+  - Proportional allocation: **1.52** (**~13% reduction**)
+  - Neyman allocation: **1.48** (**~15% reduction vs. SRS**)
 
 ---
 
 ## Repository Structure
 .
-├── Group_5_Code.R # Data cleaning, sampling implementations, analysis, and visualizations
-├── Group_5_Data.csv # Survey dataset
-└── Group_5_Report.pdf # Final technical report
+├── Group_5_Code.R
+├── Group_5_Data.csv
+├── Group_5_Report.pdf
+└── images/
+├── screen_time_vs_gpa.png
+├── study_hours_vs_gpa.png
+└── sleep_hours_vs_gpa.png
 
 ---
 
