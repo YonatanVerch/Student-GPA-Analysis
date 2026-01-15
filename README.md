@@ -14,10 +14,13 @@ This project investigates how lifestyle factors such as sleep duration, study in
 ## Exploratory Visualizations
 
 ### Screen Time/Study Hours vs. GPA
-![Screen Time vs GPA](download(9).png)
+![Screen Time vs GPA]<img width="2000" height="1125" alt="download (9)" src="https://github.com/user-attachments/assets/d0d1aed0-57d0-4ef9-aef8-9dd1bb68b5e6" />
+
 
 ### Sleep Hours vs. GPA
-![Sleep Hours vs GPA](download(10)png)
+![Sleep Hours vs GPA]<img width="2000" height="1125" alt="download (10)" src="https://github.com/user-attachments/assets/f6021cfd-8863-4ffd-8302-e5d622fd6f99" />
+()
+ng)
 
 ---
 
